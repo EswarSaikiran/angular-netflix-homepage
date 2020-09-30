@@ -1,0 +1,31 @@
+h2 {
+    font-size: x-large;
+    color: white;
+}
+img {
+   
+   
+    padding-right: 5px;
+}
+
+.movie {
+    margin: 20px 0;
+    justify-content: space-between;
+}
+.movie .movie__images div.thumbnails .carousel {
+    width: 100%;
+    display: grid;
+    grid-gap: 20px;
+    
+}
+
+
+
+.slick-item:hover {
+   
+    transition: transform .3s;
+    -ms-transform: scale(1.4);
+    -webkit-transform: scale(1.4);  
+    transform: scale(1.4);
+}
+
